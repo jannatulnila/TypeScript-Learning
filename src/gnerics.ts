@@ -12,7 +12,9 @@ const rollNumbers : GenericArray<number>= [12,34,45];
 // const isEligibleList : boolean[]= [true, false, true];
 const isEligibleList : Array<boolean>= [true, false, true];
 
-const UserList: GenericArray<{name: string, age: number}> = [
+type User ={name: string, age: number}
+
+const UserList: GenericArray<User> = [
   {
     name: "Rifat",
     age: 21,
